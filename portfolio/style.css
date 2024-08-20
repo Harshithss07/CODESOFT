@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    margin-top: 15%;
+}
+ul li a{
+    font-size:16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(94, 255, 255);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+.info{
+    margin-left: 14%;
+    margin-top: 14%;
+}
+.info h1{
+    font-size: 65px;
+    color: rgb(242, 228, 170);
+}
+.info h2{
+    font-size: 35px;
+    color:rgb(255, 224, 113)
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+.info span{
+    color: rgb(230,104,59);
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(27, 102, 122);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background: rgb(118, 242, 254);
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height:140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image:hover .boy{
+    left: 55%;
+}
+.icons a{
+    text-decoration: none;
+    color: #67e4f8;
+}
+.icons ion-icon{
+    margin-left: 14%;
+    color: #faf6f6;
+    margin-right: -240px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
